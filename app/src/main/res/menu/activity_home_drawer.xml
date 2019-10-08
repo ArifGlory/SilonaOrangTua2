@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gab_anggota"
+            android:title="Gabung Anggota"
+            android:icon="@drawable/join"
+
+            />
+        <item
+            android:id="@+id/t_gabung"
+            android:title="Tergabung Anggota"
+            android:icon="@drawable/member"
+
+            />
+        <item
+            android:id="@+id/d_riwayat"
+            android:title="Daftar Riwayat Lokasi"
+            android:icon="@drawable/riwayat"/>
+
+        <item
+            android:id="@+id/b_bantuan"
+            android:title="Bantuan"
+            android:icon="@drawable/ic_live_help"/>
+
+        <item
+            android:id="@+id/keluar"
+            android:title="Keluar"
+            android:icon="@drawable/logout"
+
+           />
+    </group>
+
+
+</menu>

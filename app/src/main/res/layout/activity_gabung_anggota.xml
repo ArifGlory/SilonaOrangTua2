@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_ortu"
+    tools:context=".GabungAnggota">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:text="Gabung Anggota"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/form_nama1"
+        android:layout_width="340dp"
+        android:layout_height="74dp"
+        android:layout_below="@+id/login_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/form_nama"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="439dp">
+
+            <EditText
+                android:id="@+id/input_nama"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:hint="Nama Pengguna"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/gabung_anggota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Text1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="-80dp"
+        android:background="@drawable/btn_daftar_background"
+        android:onClick="gabung"
+        android:text="Gabung"
+        android:textColor="@color/light" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_ortu"
+    tools:context=".Tentang">
+
+    <ImageView
+        android:background="@drawable/button_background"
+        android:id="@+id/silona"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/ic_info" />
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="265dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="Tentang SILONA"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/texttentang"
+        android:layout_width="match_parent"
+        android:layout_height="443dp"
+        android:layout_below="@+id/login_title">
+
+
+        <TextView
+            android:id="@+id/isitext"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/text_tentang_bantuan"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:text="Aplikasi SILONA adalah Aplikasi tentang Sistem Monitoring Lokasi Anak.\n\nBertujuan untuk memonitoring lokasi anak saat pergi atau main dengan smartphonenya.\n\nAplikasi SILONA Orangtua ini untuk memonitoring lokasi anak dan terdapat daftar riwayat yang memudahkan orangtua memantau anak pergi kemana saja."
+            android:textColor="@color/light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/isitext1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/text_tentang_bantuan"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="\n Muhammad Thomi Fadholi\n1417051099 "
+        android:textColor="@color/light"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/bantuan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/texttentang"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_background"
+        android:onClick="goToBeranda"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SiLonaOrangtua</string>
+    <string name="title_activity_welcome">Map</string>
+    <string name="title_activity_home">Beranda SILONA Orangtua</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_anak">AnakActivity</string>
+    <string name="title_activity_live_maps">Map</string>
+
+
+    <string name="te_nama">
+        This is an <u>underline</u>
+        sdsdasdasdasd
+    </string>
+    <string name="title_activity_riwayat_maps">Map</string>
+    <string name="title_activity_summary">Map</string>
+
+</resources>
